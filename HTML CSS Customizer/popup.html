@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="tabs">
+        <button class="tab-btn active" data-tab="html-tab">HTML</button>
+        <button class="tab-btn" data-tab="css-tab">CSS</button>
+    </div>
+
+    <div id="html-tab" class="content active">
+        <textarea id="html-code" placeholder="<div>Hello World</div>"></textarea>
+        <button id="apply-html">Confirm HTML</button>
+    </div>
+
+    <div id="css-tab" class="content">
+        <textarea id="css-code" placeholder="body { background: red; }"></textarea>
+        <button id="apply-css">Confirm CSS</button>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
